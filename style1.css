@@ -1,0 +1,130 @@
+#title{
+  background-color: #ff4c68;
+  padding:10%;
+}
+body{
+  font-family: "Montserrat";
+}
+
+/* Container */
+.container-fluid{
+  padding:3% 15% 6%;
+}
+
+/* Sections */
+
+
+.colored-section{
+  background-color:#ef8172;
+  color:#fff;
+}
+.white-section{
+  background-color:#fff;  /*mainly for features */ /* else it will transparent and hence image will be visible */
+}
+
+.head1 , .temp1{
+  font-size:3.5rem;
+  line-height: 1.5;
+  font-weight:bold;
+  color:#fff;
+}
+p{
+  color:#8f8f8f;
+}
+/* Navigation Bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight:bold;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat Light";
+}
+/* Download Buttons */
+
+.download-button{
+  margin:5% 3% 5% 0;/* top right bottom left */
+}
+/* Title Image */
+.title-img{
+  width:22%;
+  transform: rotate(25deg);
+  position:absolute;
+  right:22%;
+}
+/* Features  */
+#features{
+  padding:7% 15%;
+  position:relative;
+  z-index:1;/* even after removing this z-index , the output remains same as if both are positioned then the element written below will be at the top */
+}
+.feature-box{
+  text-align:center;
+  padding:5%;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+/* Testimonial Section  */
+#testimonials{
+  text-align: center;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial_img{
+  border-radius:50%;
+  width:10%;
+  margin:20px;
+}
+#press{
+  text-align:center;
+  padding-bottom:3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+@media (max-width:1028px)
+{
+  .title-img{
+    position: static;
+    height:500px;
+    width:auto;
+    transform: rotate(0);
+  }
+  #title{
+    text-align:center;
+  }
+}
+/* CTA Section  */
+#cta{
+  text-align:center;
+  padding: 7% 15%;
+}
+
+/* Footer Section  */
+#footer{
+  padding:7% 15%;
+  text-align:center;
+}
+.social-icon{
+  margin:20px 10px;
+}
